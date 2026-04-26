@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #1e293b;
+}
+
+.glass-card {
+    background: #ffffff;
+    border-radius: 20px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+/* Table Alignment Fixed */
+table {
+    width: fit-content;
+    border-spacing: 0;
+    table-layout: auto; /* Changed from fixed to allow headers to define width */
+}
+
+th {
+    white-space: nowrap; /* Forces header text to stay on one line */
+    background-color: #f8fafc;
+}
+
+td {
+    padding: 1rem 1.5rem; /* Increased padding for better look */
+    vertical-align: middle;
+    font-size: 0.875rem;
+    color: #334155;
+    white-space: nowrap; /* Ensures data rows also stay on one line */
+}
+
+/* Prediction Badges */
+.badge-stay {
+    background: #dcfce7;
+    color: #166534;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-weight: 700;
+    font-size: 0.75rem;
+}
+
+.badge-exit {
+    background: #fee2e2;
+    color: #991b1b;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-weight: 700;
+    font-size: 0.75rem;
+}
